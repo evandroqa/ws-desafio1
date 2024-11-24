@@ -23,3 +23,8 @@ git push -u origin main
 git remote add origin git@github.com:evandroqa/ws-desafio1.git
 git branch -M main
 git push -u origin main
+
+# somente enviar
+git add .
+git commit -m "nome"
+git push
