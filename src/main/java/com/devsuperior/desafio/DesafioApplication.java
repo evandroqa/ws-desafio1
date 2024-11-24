@@ -25,7 +25,7 @@ public class DesafioApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+		// Ler valores da console
 		System.out.println(" << PEDIDO >> ");
 		System.out.print("Código: ");
 		Integer code = sc.nextInt();
